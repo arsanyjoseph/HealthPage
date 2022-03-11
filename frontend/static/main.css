@@ -1,0 +1,109 @@
+/* General Props*/
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+/*Header & Footer Props*/
+
+.header, .footer {
+    background-color: rgb(14, 170, 9);
+    box-shadow: 5px 5px 10px rgb(46, 42, 42);
+
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+
+    /*Font Props*/
+    font-size: 26pt;
+    font-weight: bolder;
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(95, 95, 95);
+}
+
+/*Navigation Bar Props*/
+.navBar {
+    background-color: rgb(85, 85, 85);
+    box-shadow: 5px 5px 10px rgb(46, 42, 42);
+
+    border-radius: 5px;
+    padding: 1em;
+    font-size: large;
+    width: 50em;
+    height: 30em;
+    /*FlexBox Display*/
+    display: flex;
+    flex-direction: column;
+}
+
+ /*Setting NavBar links Props*/
+.navBar > a {
+    color: white;
+    text-decoration: none;
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: 'Fredoka', sans-serif;
+    text-shadow: 2px 2px 2px black;
+
+    border-bottom: 2px black solid;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 70%;
+    padding: 1em;
+}
+
+/*Hover Links*/
+.navBar > a:hover {
+    background-color: rgba(185, 185, 179, 0.432);
+    font-size: 16pt;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+/*Content Management*/
+#mainPage {
+    margin: 2em;
+    width: 400em;
+    height: 35em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: scroll;
+}
+
+/*Widen Spaces between elements*/
+#mainPage * {
+    margin: 10px;
+}
+
+/*Displaying Flex*/
+#container { 
+    display: flex;
+    flex-direction: row;
+}
+
+/*Main Article Image Format*/
+img {
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(46, 42, 42);
+    width: 35em;
+    height: 25em;
+}
+
+/*CopyRight Part of Footer*/
+.copyright {
+    background-color: black;
+    color: white;
+
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Footer*/
+.footer {
+    padding: 0;
+    position: relative;
+}
