@@ -16,7 +16,7 @@ export default class Lifestyle extends Abstract {
             Get the balance wrong and your health will suffer.
             A balanced diet means eating only as many calories as you use during the day.
             Any excess will be stored as fat if you eat more than you burn off.</p>
-            <iframe width="683" height="384" src="https://www.youtube.com/embed/Y8HIFRPU6pM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id = "lifestyleVid" src="https://www.youtube.com/embed/Y8HIFRPU6pM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         `
     }
 }
